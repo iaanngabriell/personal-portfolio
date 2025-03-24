@@ -5,8 +5,8 @@
 
 body{
     font-family: Arial, sans-serif;
-    
-    background-color: #607545;
+    background-image: linear-gradient(to bottom, #607545 75%, #434B39, #30332D
+    );
 }
 
 header{
@@ -19,12 +19,54 @@ header{
     width: 15%;
 }
 
-/* .txt-perfil{
-
-} */
+.txt-perfil{
+    font-weight: bold;
+}
 
 footer{
     color: white;
+    font-size: 2px !important;
     text-align: center;
-    width: 1px;
+    padding: 1em;
+    font-size: 10px !important;
+}
+
+.conteudo{
+    background-color: none;
+    padding: 2em !important;
+    text-align: center !important;
+    margin-top: 1em !important;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold !important;
+}
+
+.principal{
+    margin-left: 25% !important;
+    margin-right: 25% !important;
+    margin-top: 1% !important;
+    margin-bottom: 15% !important;
+}
+
+.img-icon{
+    width: 50% !important;
+}
+
+.txt-icon{
+    font-size: 200% !important;
+}
+
+
+
+@media (min-width: 200px) and (max-width:768px){
+    .img-icon{
+        width: 250% !important;
+    }
+    
+    .txt-icon{
+        font-size: 300% !important;
+    }
 }
